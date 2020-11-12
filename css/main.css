@@ -1,5 +1,8 @@
 @import url('some google sans-serif font');
 /* make sure to select a new google font and use it for your header */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#afa08d;
+  }
 
 *{
     padding: 0;
@@ -23,7 +26,7 @@ main{
 header{
     /* Photo by Wyatt Ryan on Unsplash */
     /* Replace this with an image that you select */
-    background-image: url(../img/wyatt-ryan-367017-unsplash.jpg);
+    background-image: url(../img/dog-unsplash.png);
     background-size: 100% auto;
     background-position: center center;
 }
@@ -52,14 +55,14 @@ label{
     display: block;
     margin: 0;
     font-size: 1rem;
-    color: #3F1F24;
+    color: #865841;
 }
 input{
     margin:0;
     font-size: 1rem;
     padding: 0.2rem 1rem;
     width: 100%;
-    color: #835A59;
+    color: #afa08d;
 }
 input#min.price::after,
 input.price#max::after{
@@ -73,7 +76,7 @@ input.price#max::after{
     font-size: 1rem;
     line-height: 1.5;
     padding: 0.25rem 1rem;
-    background-color:#D16641;
+    background-color:#c95d32; 
     color: #fff;
 }
 @media all and (min-width:650px){
