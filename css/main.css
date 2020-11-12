@@ -1,6 +1,9 @@
-@import url('some google sans-serif font');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+
 /* make sure to select a new google font and use it for your header */
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    
     color:#afa08d;
   }
 
@@ -25,7 +28,7 @@ main{
 }
 header{
     /* Photo by Wyatt Ryan on Unsplash */
-    /* Replace this with an image that you select */
+    /* image source: Unsplash */
     background-image: url(../img/dog-unsplash.png);
     background-size: 100% auto;
     background-position: center center;
@@ -35,7 +38,7 @@ header h1{
     line-height: 4rem;
     padding: 1rem 1rem;
     color: rgba(250,250,250, 0.7);
-    text-shadow: 2px 2px 4px #835A59;
+    text-shadow: 2px 1px 2px #ce7040;
     vertical-align: top;
     text-align: right;
     min-height: 12rem;
@@ -78,7 +81,13 @@ input.price#max::after{
     padding: 0.25rem 1rem;
     background-color:#c95d32; 
     color: #fff;
+    border-radius: 4px;
 }
+.search-btn:hover{
+    background-color:#eed1c3;
+    color: #c95d32;
+}
+
 @media all and (min-width:650px){
     form{
         display: flex;
